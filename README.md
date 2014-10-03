@@ -15,6 +15,6 @@ Light
 Инструментарий
 =========
 
-[Разработка](http://www.jetbrains.com/ruby/ "Продукт")
-[Верстка](http://bootswatch.com/yeti/(http://bootswatch.com/yeti/ "Проект")
-[Тестирование](http://rspec.info/ "Фреймворк")
+- [Разработка](http://www.jetbrains.com/ruby/ "Продукт")
+- [Верстка](http://bootswatch.com/yeti/(http://bootswatch.com/yeti/ "Проект")
+- [Тестирование](http://rspec.info/ "Фреймворк")

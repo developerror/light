@@ -16,5 +16,5 @@ Light
 =========
 
 - [Разработка](http://www.jetbrains.com/ruby/ "Продукт")
-- [Верстка](http://bootswatch.com/yeti/(http://bootswatch.com/yeti/ "Проект")
+- [Верстка](http://bootswatch.com/yeti/ "Проект")
 - [Тестирование](http://rspec.info/ "Фреймворк")

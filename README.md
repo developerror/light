@@ -2,8 +2,8 @@ Light
 ============
 Этапы разработки:
 - [x] Требования
-- [x] Макетирование - [https://github.com/developerror/ligth/blob/master/sketch.ai](макет "Файл")
-- [x] Проектирование - [http://www.mindmeister.com/ru/460679572/](карта "Файл")
+- [x] Макетирование - [Макет](https://github.com/developerror/ligth/blob/master/sketch.ai "Файл")
+- [x] Проектирование - [Архитектура](http://www.mindmeister.com/ru/460679572/ "Файл")
 - [ ] Прототипирование
 - [ ] Кодирование
 - [ ] Тестирование

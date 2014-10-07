@@ -38,8 +38,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'debugger', group: [:development, :test]
 
 gem 'twitter-bootswatch-rails', '~> 3.0'
-#gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
-
+gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
 gem 'twitter-bootswatch-rails-helpers'
 
 group :development, :test do

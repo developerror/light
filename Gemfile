@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -35,6 +36,11 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'twitter-bootswatch-rails', '~> 3.0'
+#gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
+
+gem 'twitter-bootswatch-rails-helpers'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

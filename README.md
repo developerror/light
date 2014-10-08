@@ -2,7 +2,7 @@ Light
 ============
 Этапы разработки:
 - [x] Требования
-- [x] Макетирование - [Макет](https://github.com/developerror/ligth/blob/master/sketch.ai "Файл")
+- [x] Макетирование - [Макет](https://yadi.sk/d/broKruKtbtZC3 "Файл")
 - [x] Проектирование - [Архитектура](http://www.mindmeister.com/ru/460679572/ "Презентация")
 - [x] Починка стиральной машины
 - [ ] Прототипирование

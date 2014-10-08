@@ -35,14 +35,17 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+#gem 'debugger', group: [:development, :test]
 
 gem 'twitter-bootswatch-rails', '~> 3.0'
 gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
 gem 'twitter-bootswatch-rails-helpers'
 
 group :development, :test do
+  gem 'debase'
   gem 'sqlite3', '1.3.8'
+  gem 'mongoid'
+  gem 'bson'
   gem 'rspec-rails', '2.13.1'
 end
 

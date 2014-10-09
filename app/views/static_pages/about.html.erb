@@ -1,4 +1,14 @@
 <div class="alert alert-success">
   <h1>About this project</h1>
   <i class="fa fa-camera-retro fa-lg"> This Project best in the best</i>
+
+
+  <% if current_user %>
+      Welcome <%= current_user.name %>!
+      <%= link_to "Sign Out", signout_path %>
+  <% else %>
+      <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  <% end %>
+
+
 </div>

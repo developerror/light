@@ -236,6 +236,7 @@
     <orderEntry type="library" scope="PROVIDED" name="guard (v2.6.1, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rspec (v2.5.0, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-spork (v1.5.0, RVM: ruby-2.1.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v3.3.1, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hitimes (v1.2.2, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, RVM: ruby-2.1.3) [gem]" level="application" />
@@ -254,6 +255,10 @@
     <orderEntry type="library" scope="PROVIDED" name="moped (v2.0.0, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.3.1, RVM: ruby-2.1.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oauth (v0.4.7, RVM: ruby-2.1.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="omniauth (v1.2.2, RVM: ruby-2.1.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="omniauth-oauth (v1.0.1, RVM: ruby-2.1.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="omniauth-twitter (v1.0.1, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="optionable (v0.2.0, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="origin (v2.1.1, RVM: ruby-2.1.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, RVM: ruby-2.1.3) [gem]" level="application" />

@@ -41,11 +41,12 @@ gem 'twitter-bootswatch-rails-helpers'
 
 group :development, :test do
   gem 'debase'
-  gem 'sqlite3', '1.3.8'
-  gem 'mongoid'
-  gem 'bson'
   gem 'rspec-rails', '2.13.1'
 end
+
+gem 'sqlite3', '1.3.8'
+gem 'mongoid'
+gem 'bson'
 
 group :test do
   gem 'minitest'

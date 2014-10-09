@@ -44,7 +44,7 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
 end
 
-#gem 'sqlite3', '1.3.8'
+gem 'sqlite3', '1.3.8'
 gem 'mongoid'
 gem 'bson'
 
@@ -58,11 +58,8 @@ group :test do
   gem 'childprocess', '0.3.6'
 end
 
-# deploying on Heroku
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
+gem 'pg'
+gem 'rails_12factor'
 
 gem 'omniauth-twitter'
 

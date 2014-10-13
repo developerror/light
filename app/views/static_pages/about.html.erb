@@ -1,14 +1,17 @@
-<div class="alert alert-success">
+<div class="navbar">
   <h1>About this project</h1>
-  <i class="fa fa-camera-retro fa-lg"> This Project best in the best</i>
-
-
-  <% if current_user %>
-      Welcome <%= current_user.name %>!
-      <%= link_to "Sign Out", signout_path %>
-  <% else %>
-      <%= link_to "Sign in with Twitter", "/auth/twitter" %>
-  <% end %>
-
-
 </div>
+
+<% if current_user %>
+  Welcome <%= current_user.name %>!
+  <%= link_to "Sign Out", signout_path %>
+<% else %>
+    <ul>
+      <li><%= link_to "Sign in with Twitter", "/auth/twitter" %>
+      <li><%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
+      <li><%= link_to "Sign in with Facebook", "/auth/facebook" %>
+      <li><%= link_to "Sign in with Instagram", "/auth/instagram" %>
+      <li><%= link_to "Sign in with Yandex", "/auth/yandex" %>
+      <li><%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
+    </ul>
+<% end %>

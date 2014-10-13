@@ -2,22 +2,34 @@
   <h1>About this project</h1>
 </div>
 
+<section id='main'>
 <% if current_user %>
   Welcome <%= current_user.name %>!
   <%= link_to "Sign Out", signout_path %>
 <% else %>
-    <ul>
-      <li><i class="fa fa-check-square-o fa-lg"></i>
-        <%= link_to "Sign in with Twitter", "/auth/twitter" %>
-      <li><i class="fa fa-square-o fa-lg"></i>
-        <%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
-      <li><i class="fa fa-check-square-o fa-lg"></i>
-        <%= link_to "Sign in with Facebook", "/auth/facebook" %>
-      <li><i class="fa fa-square-o fa-lg"></i>
-        <%= link_to "Sign in with Instagram", "/auth/instagram" %>
-      <li><i class="fa fa-check-square-o fa-lg"></i>
-        <%= link_to "Sign in with Yandex", "/auth/yandex" %>
-      <li><i class="fa fa-square-o fa-lg"></i>
-        <%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
-    </ul>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  </div>
+  <div><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
+    <aside>needs to deploy to heroku</aside>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Facebook", "/auth/facebook" %>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Instagram", "/auth/instagram" %>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Yandex", "/auth/yandex" %>
+  </div>
+  <div><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
+    <aside>needs to deploy to heroku</aside>
+  </div>
+  <div><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Google", "/auth/google_oauth2" %>
+    <aside>needs to deploy to heroku</aside>
+  </div>
 <% end %>
+</section>

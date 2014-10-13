@@ -62,4 +62,8 @@ gem 'pg'
 gem 'rails_12factor'
 
 gem 'omniauth-twitter'
-
+gem 'omniauth-vkontakte'
+gem 'omniauth-facebook'
+gem 'omniauth-instagram'
+gem 'omniauth-yandex'
+gem 'omniauth-mailru'

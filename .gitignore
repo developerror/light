@@ -21,4 +21,5 @@
 .DS_Store
 .idea
 .secret
+workspace.xml
 bundler_stubs/

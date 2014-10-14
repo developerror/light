@@ -1,8 +1,8 @@
-<div class="navbar">
-  <h1>About this project</h1>
+<div class="navbar navbar-inverse">
+  <h1 class="text-center">oAuth</h1>
 </div>
 
-<section id='main'>
+<section class='container'>
 <% if current_user %>
   Welcome <%= current_user.name %>!
   <%= link_to "Sign Out", signout_path %>
@@ -10,9 +10,9 @@
   <div><i class="fa fa-check-square-o fa-lg"></i>
     <%= link_to "Sign in with Twitter", "/auth/twitter" %>
   </div>
-  <div><i class="fa fa-square-o fa-lg"></i>
+  <div class=""><i class="fa fa-square-o fa-lg"></i>
     <%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
-    <aside>needs to deploy to heroku</aside>
+    <aside><small>needs to deploy to heroku</small></aside>
   </div>
   <div><i class="fa fa-check-square-o fa-lg"></i>
     <%= link_to "Sign in with Facebook", "/auth/facebook" %>
@@ -25,11 +25,11 @@
   </div>
   <div><i class="fa fa-square-o fa-lg"></i>
     <%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
-    <aside>needs to deploy to heroku</aside>
+    <aside><small>needs to deploy to heroku</small></aside>
   </div>
   <div><i class="fa fa-square-o fa-lg"></i>
     <%= link_to "Sign in with Google", "/auth/google_oauth2" %>
-    <aside>needs to deploy to heroku</aside>
+    <aside><small>needs to deploy to heroku</small></aside>
   </div>
 <% end %>
 </section>

@@ -40,11 +40,11 @@ gem 'twitter-bootswatch-rails-fontawesome', '~> 4.0'
 gem 'twitter-bootswatch-rails-helpers'
 
 group :development, :test do
+  gem 'sqlite3', '1.3.8'
   gem 'debase'
   gem 'rspec-rails', '2.13.1'
 end
 
-gem 'sqlite3', '1.3.8'
 gem 'mongoid'
 gem 'bson'
 
@@ -58,8 +58,10 @@ group :test do
   gem 'childprocess', '0.3.6'
 end
 
-gem 'pg'
-gem 'rails_12factor'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 gem 'omniauth-twitter'
 gem 'omniauth-vkontakte'
@@ -67,4 +69,5 @@ gem 'omniauth-facebook'
 gem 'omniauth-instagram'
 gem 'omniauth-yandex'
 gem 'omniauth-mailru'
+gem 'omniauth-google-oauth2'
 gem 'declarative_authorization'

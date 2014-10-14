@@ -130,6 +130,9 @@ GEM
       rack (~> 1.0)
     omniauth-facebook (2.0.0)
       omniauth-oauth2 (~> 1.2)
+    omniauth-google-oauth2 (0.2.5)
+      omniauth (> 1.0)
+      omniauth-oauth2 (~> 1.1)
     omniauth-instagram (1.0.1)
       omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.0)
@@ -284,6 +287,7 @@ DEPENDENCIES
   minitest
   mongoid
   omniauth-facebook
+  omniauth-google-oauth2
   omniauth-instagram
   omniauth-mailru
   omniauth-twitter

@@ -1,17 +1,35 @@
-<div class="navbar">
-  <h1>About this project</h1>
+<div class="navbar navbar-inverse">
+  <h1 class="text-center">oAuth</h1>
 </div>
 
+<section class='container'>
 <% if current_user %>
   Welcome <%= current_user.name %>!
   <%= link_to "Sign Out", signout_path %>
 <% else %>
-    <ul>
-      <li><%= link_to "Sign in with Twitter", "/auth/twitter" %>
-      <li><%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
-      <li><%= link_to "Sign in with Facebook", "/auth/facebook" %>
-      <li><%= link_to "Sign in with Instagram", "/auth/instagram" %>
-      <li><%= link_to "Sign in with Yandex", "/auth/yandex" %>
-      <li><%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
-    </ul>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  </div>
+  <div class=""><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Vkontakte", "/auth/vkontakte" %>
+    <aside><small>needs to deploy to heroku</small></aside>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Facebook", "/auth/facebook" %>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Instagram", "/auth/instagram" %>
+  </div>
+  <div><i class="fa fa-check-square-o fa-lg"></i>
+    <%= link_to "Sign in with Yandex", "/auth/yandex" %>
+  </div>
+  <div><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Mail.ru", "/auth/mailru" %>
+    <aside><small>needs to deploy to heroku</small></aside>
+  </div>
+  <div><i class="fa fa-square-o fa-lg"></i>
+    <%= link_to "Sign in with Google", "/auth/google_oauth2" %>
+    <aside><small>needs to deploy to heroku</small></aside>
+  </div>
 <% end %>
+</section>

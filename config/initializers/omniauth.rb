@@ -13,11 +13,11 @@ Rails.application.config.middleware.use OmniAuth::Builder do
       #response_type: 'token'
   }
 
-  provider :google_oauth2, ENV['GMAIL_KEY'], ENV['GMAIL_SECRET'], {
+  provider :google_oauth2, ENV['GOOGLE_KEY'], ENV['GOOGLE_SECRET']#, {
       #:name => "google",
       #:scope => "email, profile, plus.me, http://gdata.youtube.com",
       #:prompt => "select_account",
       #:image_aspect_ratio => "square",
       #:image_size => 50
-  }
+  #}
 end

@@ -8,11 +8,6 @@ Rails.application.config.middleware.use OmniAuth::Builder do
       redirect_uri: "http://mysterious-stream-6275.herokuapp.com/auth/instagram/callback"
   }
   provider :yandex, ENV['YANDEX_KEY'], ENV['YANDEX_SECRET']
-  provider :mailru, ENV['MAILRU_KEY'], ENV['MAILRU_SECRET'], {
-      redirect_uri: "http://mysterious-stream-6275.herokuapp.com/auth/mailru/callback",
-      #response_type: 'token'
-  }
-
   provider :google_oauth2, ENV['GOOGLE_KEY'], ENV['GOOGLE_SECRET'], {
   	redirect_uri: "http://mysterious-stream-6275.herokuapp.com/auth/google_oauth2/callback"
       #:name => "google",
